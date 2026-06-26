@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "air-drawing-studio",
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
+}

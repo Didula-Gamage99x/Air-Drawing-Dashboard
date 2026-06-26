@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Air Drawing Studio</title>
+  <link rel="stylesheet" href="stylent.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <section class="hero">
+      <div>
+        <div class="badge">Hands-free sketching</div>
+        <h1>Air Drawing Studio</h1>
+        <p>Draw in the air, erase with two fingers, and move existing strokes with your thumb and index finger.</p>
+      </div>
+      <div class="hero-meta">
+        <span class="pill">Index finger → draw</span>
+        <span class="pill">Index + middle → erase</span>
+        <span class="pill">Thumb + index → move</span>
+      </div>
+    </section>
+
+    <video class="input_video"></video>
+
+    <div id="draw_area">
+      <div class="canvas-shell">
+        <canvas class="output_canvas" width="1280" height="720"></canvas>
+      </div>
+
+      <aside class="controls">
+        <div class="status-card">
+          <h2>Gesture status</h2>
+          <p id="gesture_status">Looking for your hand…</p>
+          <div class="status-dot"></div>
+        </div>
+
+        <button id="clear_button" class="side_button" type="button">Clear board</button>
+        <button id="dl_button" class="side_button" type="button">Refine strokes</button>
+        <button id="download_button" class="side_button" type="button">Export points</button>
+      </aside>
+    </div>
+
+    <section class="info-grid">
+      <article>
+        <h3>How it works</h3>
+        <p>Your webcam runs entirely in the browser. The app tracks your hand and turns your gestures into live drawing actions.</p>
+      </article>
+      <article>
+        <h3>Tips</h3>
+        <p>Keep your hand visible and well-lit. A steady hand and a clean background improve tracking accuracy noticeably.</p>
+      </article>
+      <article>
+        <h3>Privacy</h3>
+        <p>No drawings are sent anywhere. All processing stays on your device.</p>
+      </article>
+    </section>
+  </div>
+
+  <script src="js/strokes.js"></script>
+  <script src="js/scriptent.js"></script>
+</body>
+</html>
