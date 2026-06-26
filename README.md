@@ -31,28 +31,12 @@ The application runs entirely in your browser, ensuring that webcam processing a
 
 ---
 
-## 📂 Project Structure
-
-```text
-Air-Drawing-Studio/
-│
-├── assets/               # Images and UI assets
-├── js/
-│   ├── scriptent.js      # Camera & gesture detection
-│   └── strokes.js        # Stroke management
-├── index.html            # Main application
-├── stylent.css           # Application styling
-└── README.md
-```
-
----
-
 ## 🚀 Getting Started
 
 1. Clone the repository.
 
 ```
-git clone https://github.com/yourusername/Air-Drawing-Studio.git
+git clone https://github.com/Didula-Gamage99x/Air-Drawing-Dashboard.git
 ```
 
 2. Open the project folder.
@@ -73,38 +57,4 @@ git clone https://github.com/yourusername/Air-Drawing-Studio.git
 * Avoid overlapping fingers during gestures.
 * Use a plain background whenever possible for improved tracking.
 
----
-
-## 🛠️ Built With
-
-* HTML5
-* CSS3
-* JavaScript
-* MediaPipe Hands
-* Canvas API
-
----
-
-## 📌 Future Enhancements
-
-* Additional gesture shortcuts
-* Custom brush styles and colors
-* Undo and redo support
-* Shape drawing tools
-* Dark and light theme switching
-* Save drawings as PNG or SVG
-* Touchscreen support
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
-
-Developed by **Your Name**
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
+=
