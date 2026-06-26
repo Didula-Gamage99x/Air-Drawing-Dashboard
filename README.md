@@ -2,7 +2,7 @@
 
 Draw in the air using your webcam and hand gestures.
 
-**Air Drawing Studio** is a browser-based hand gesture drawing application that transforms your hand movements into digital artwork. Using **MediaPipe Hands**, the application detects finger gestures in real time, allowing you to draw, erase, and move strokes without touching your screen.
+**Air Drawing Studio** is a browser based hand gesture drawing application that transforms your hand movements into digital artwork. Using **MediaPipe Hands**, the application detects finger gestures in real time, allowing you to draw, erase, and move strokes without touching your screen.
 
 The application runs entirely in your browser, ensuring that webcam processing and drawings remain on your device without requiring a backend server.
 
