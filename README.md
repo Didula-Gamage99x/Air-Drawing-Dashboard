@@ -10,14 +10,14 @@ The application runs entirely in your browser, ensuring that webcam processing a
 
 ## ✨ Features
 
-* ✋ Real-time hand tracking using MediaPipe Hands
+* ✋ Real time hand tracking using MediaPipe Hands
 * 🎨 Draw naturally with your index finger
-* 🧽 Erase strokes using a two-finger gesture
+* 🧽 Erase strokes using a two finger gesture
 * 🤏 Move existing drawings with a pinch gesture
 * 📤 Export drawings as point data
 * 🖥️ Modern, responsive dashboard
-* ⚡ Fast and lightweight browser-based experience
-* 🔒 Client-side processing for enhanced privacy
+* ⚡ Fast and lightweight browser based experience
+* 🔒 Client side processing for enhanced privacy
 
 ---
 
@@ -57,4 +57,4 @@ git clone https://github.com/Didula-Gamage99x/Air-Drawing-Dashboard.git
 * Avoid overlapping fingers during gestures.
 * Use a plain background whenever possible for improved tracking.
 
-=
+
