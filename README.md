@@ -59,4 +59,4 @@ git clone https://github.com/Didula-Gamage99x/Air-Drawing-Dashboard.git
 
 ## 🌐 Live Demo
 
-👉 **[Air Drawer Application](https://air-drawer.dg99x.workers.dev/)**
+👉 **[Air Drawer](https://air-drawer.dg99x.workers.dev/)**
